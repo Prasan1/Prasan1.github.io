@@ -15,10 +15,6 @@ h2{
   color: #444444;
  }
 
- #coming-soon{
-  font-size: 18
- }
-  
   .page-body{
     margin-top: 20px;
     margin-left: 25px;
@@ -26,74 +22,46 @@ h2{
 
   }
   
-  .display-img{
-  	width:200px;
-    height:300px;
-  	
-  	border-color:#00F;
-  }
 
-.trailer{
-  color:white;
-}
 .btn{
   border-radius: 12px;
   border: 2px solid #4caf50;
-  position: relative;
   margin-top: 5px;
   margin-bottom: 5px;
-  left:65px;
+  padding-left: 25px;
+  background-color: #fff;
+  
 
 }
-.btn:hover{
-  background-color: #2dad69;
-}
- .btn-primary{
-  background-color: #602F8D;
-  border-color: #602F8D;
+ .btn:hover{
+  background-color: #98c1c0;
  }
-
-
+/* Top buffer sets the margin of the page by specified pixel*/
 .top-buffer{
   margin-top: 20px;
 }
-.text{
-  text-align: left;
-  margin-left: 50px;
 
-}
-
-.modal-header{
-  background-color:#98c1c0;
-}
-
+/* modal body sets the body of the modal to specified format*/
 .modal-body{
+  height: 520px;
+  width:500px;
   background-color: #fff;
   padding-left: 5px;
   padding-top: 5px;
-
-
+  padding-bottom: 5px;
 }
 
+
+/*pulls modal image to the right*/
 .modal-body.pull-right {
   padding-left: 1em;
 }
+/*pulls the body element to the left*/
 .modal-body.pull-left {
   padding-right: 1em;
 }
-.model-footer{
-  clear:both;
 
-}
 
-.playbutton{
-  height:50px;
-  width:50px;
-}
-
-.not-available{
-  color:red;
-}
 /*
 .popup-btn{
   border-radius: 5px;
@@ -102,60 +70,39 @@ h2{
 
 
 }*/
-.popup-btn {
-  border-radius: 8px;
-  border: 1px solid #4caf50;
-  position: relative;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  margin-right: 20px;
-  font-size: 15px;
-  size: 2px;
- 
+/* image style*/
+.display-img{
+    width:200px;
+    height:300px;
+    border-color:#00F;
+  }
 
+  .popup-img{
+    width:200px;
+    height:300px;
+    border-color:#00F;
+    margin-right:10px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
 
-}
-
-.close-btn {
-  border-radius: 8px;
-  border: 1px solid #4caf50;
-  position: relative;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  margin-left:20px;
+.popup-heading{
+  font-weight: bold;
   font-size: 20px;
 
 }
 
-.play-btn{
-  size: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  background-color: white;
-  margin-left:5px;
+.upcoming{
+  font-size: 18px;
+  color:red;
 
-}
-.img-button{
-  width:40px;
-  height:40px;
-}
-.glyphicon-remove{
-  color:blue;
+ }
+ .link{
+  font-style: none;
+ }
+ .info{
+  margin-left: 10px;
+ }
 
-}
 
-.popup-heading{
-  background-color:#98c1c0;
-  font-weight: bold;
-  font-size: 50px;
-  color:#fff;
-
-}
-.info-text{
-  margin-left:50px;
-}
-.modal-dialog{
-  width:400px;
-  height:300px;
-}
 
